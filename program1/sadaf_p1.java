@@ -5,10 +5,10 @@ public class sadaf_p1 {
     // method to sort an array of int values using selection sort
     public int[] selectionSort(int lowerBound, int upperBound, int[] values)
     {
-        while (lowerBound < upperBound) {
+        while (lowerBound <= upperBound) {
             int minimum = values[lowerBound];
             int minIndex = lowerBound;
-            for (int j = lowerBound + 1; j < upperBound; j++) {
+            for (int j = lowerBound + 1; j <= upperBound; j++) {
                 if (values[j] < minimum) {
                     minimum = values[j];
                     minIndex = j;
